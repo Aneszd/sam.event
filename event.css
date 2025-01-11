@@ -252,7 +252,7 @@ span{
 }
 
 .services-section h2 {
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 30px;
 }
 
@@ -283,69 +283,47 @@ span{
 .service1 p {
     font-size: 3rem;
 }
-.services{
-    background: var(--main-color);
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+.about-section {
+    background-color: #8777b4;
+    padding: 50px 20px;
+    margin-top: 30px;
 }
-.services h2{
-    margin-bottom: 5rem;
-    color: white;
-}
-.services-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.service-box{
-    background-color: var(--main-color);
-    border-radius: 3rem;
-    border: 5px solid transparent;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    width: 80%;
-    max-width: 800px;
 
+.about-section h2 {
+    font-size: 5rem;
+    margin-bottom: 30px;
 }
-.service-box:hover{
-    background: white;
-    color: black;
-    border: 5px solid var(--main-color);
-    transform: scale(1.03);
-}
-.service-info
-{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+
+.about-container {
+    display:flex;
     justify-content: center;
-    align-items: center;
 }
-.service-info p{
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 1.7;
-    margin: 0; 
+
+.about-box {
+    max-width: 800px;
+    background: #ffffff11;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.8;
 }
+
+.about-box p {
+    font-size: 2.6rem;
+}
+
 .contact{
-    background-color: var(--bg-color);
+    background-color: #8777b4
 }
 .contact h2{
-    margin-bottom: 3rem;
-    color: white;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    color: #eee5eb;
+    text-align: left;
 }
 .contact form{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 3rem;
     margin: 5rem auto;
@@ -360,7 +338,7 @@ span{
 .contact form textarea{
     width: 100%;
     padding: 2.5rem;
-    font-size: 1.8rem;
+    font-: 3rem;
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: 2rem;
@@ -387,7 +365,7 @@ span{
     font-size: 25px;
     color: var(--main-color);
     border: 2px solid var(--main-color);
-    width: 42px;
+    widthsize: 42px;
     height: 42px;
     line-height: 42px;
     display: inline-block;
