@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "MAHDI MIDI AADL",
+    "description": "AADL 3 Auto",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "res/icon48.png"
+    },
+    "author": {
+      "name":  "MAHDI ZAOUI",
+      "email": "mahdimidi548@gmail.com"
+    },
+
+    "background": {
+      "service_worker": "js/service_worker.js"
+    },
+
+    "icons": {
+      "16":  "res/icon16.png",
+      "32":  "res/icon32.png",
+      "48":  "res/icon48.png",
+      "128": "res/icon128.png"
+    },
+
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "scripting",
+      "webRequest",
+      "notifications",
+      "webNavigation"
+    ],
+
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+
+  }
